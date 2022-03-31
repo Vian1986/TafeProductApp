@@ -71,5 +71,10 @@ namespace ProductApps
         {
             return calTotalPayment() + 5.0m;
         }
+
+        public decimal calTotalPaymentAfterGST()
+        {
+            return calTotalPaymentAfterWrap() * 1.1m;
+        }
     }
 }
