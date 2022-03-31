@@ -66,5 +66,10 @@ namespace ProductApps
             TotalPayment = Price * Quantity ;
             return TotalPayment + 25.0m;
         }
+
+        public decimal calTotalPaymentAfterWrap()
+        {
+            return calTotalPayment() + 5.0m;
+        }
     }
 }
